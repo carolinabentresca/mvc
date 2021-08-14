@@ -1,26 +1,28 @@
 # mvc
 
-#Tema: Arquitectura de Software: Modelo-Vista-Controllado
+#TEMA:  Arquitectura de Software:  "Modelo-Vista-Controllado"
 
-#Proyecto Java: Java Application
+#PROYECTO JAVA:  Java Application
 
-#Paquete Modelo: 
+#PAQUETE "Modelo": 
 
-  -Clase Conexio: Conexion a la base de datos "mybd", mediante JDBC.
+  -CLASE "Conexio": Conexion a la base de datos "mybd", mediante JDBC.
   
-  -Clase usuario: Entidad de la tabla "usuario".
+  -CLASE "usuario": Clase Entidad (Entity) de la tabla "usuario".
   
-  -Clase usuarioDao: Compuesta por los métodos "CRUD", para el mantenimiento a la base de datos "mybd".
+  -CLASE "usuarioDao": Compuesta por los métodos "CRUD": ("registrar","buscar","modificar","eliminar"), para el mantenimiento a la base de datos "mybd".
   
-#Paquete Vista: 
+#PAQUETE "Vista": 
 
-  -Clase usuarioFrm: interfaz de usuario, mediante un Jframe.
+  -CLASE "usuarioFrm": interfaz de usuario, Compuesta con los ("btnRegistrar1","btnBuscar","btnModificar","btnEliminar","btnLimpiar") mediante un "Jframe".
   
-#Paquete Controlador: 
+#PAQUETE "Controlador": 
 
-  -Clase usuarioController: Clase intermediario entre el Modelo y La Vista, gestionando transformaciones para adaptar los datos al mantenimiento de la base de datos.
+  -CLASE "usuarioController": Clase intermediario entre el "Modelo" y la "Vista", gestionando transformaciones para adaptar los datos 
+  al mantenimiento de la base de datos.
   
-#Paquete mvc1: 
+#PAQUETE "mvc1": 
   
-  -Clase Mvc1: Es la clase principal, se instancia las clases "usuario", "usuarioDao", "usuarioFrm", "usuarioController", se ejecuta el proyecto mediante el    método"main".
+  -CLASE "Mvc1": Es la clase principal, se instancian las clases "usuario", "usuarioDao", "usuarioFrm", "usuarioController", 
+  se ejecuta el proyecto mediante el método"main".
 
