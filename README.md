@@ -1,6 +1,6 @@
 # mvc
 
-#TEMA :   Arquitectura de Software :   "Modelo-Vista-Controlador"
+#TEMA :   "Modelo-Vista-Controlador"
 
 #PROYECTO JAVA :   Java Application
 
